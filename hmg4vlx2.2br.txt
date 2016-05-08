@@ -1,0 +1,47 @@
+﻿first commit
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# Explicit paths specified without -i or -o; assuming --only paths...
+# On branch master
+#
+# Initial commit
+#
+# Changes to be committed:
+#	new file:   contacto.html
+#	new file:   google84c8d83434fb0a3f.html
+#	new file:   images/desktop.ini
+#	new file:   images/logo-facebook.png
+#	new file:   images/logo-rgb.svg
+#	new file:   images/menor_1280 - copia/arte_1_1280.jpg
+#	new file:   images/menor_1280 - copia/cosmetica_1_1280.jpg
+#	new file:   images/menor_1280 - copia/desktop.ini
+#	new file:   images/menor_1280 - copia/fruta_1_1280.jpg
+#	new file:   images/menor_1280 - copia/granel_1_1280.jpg
+#	new file:   images/menor_1280/arte_1_1280.jpg
+#	new file:   images/menor_1280/cosmetica_1_1280.jpg
+#	new file:   images/menor_1280/desktop.ini
+#	new file:   images/menor_1280/fruta_1_1280.jpg
+#	new file:   images/menor_1280/granel_1_1280.jpg
+#	new file:   images/menor_360/arte_1_360.jpg
+#	new file:   images/menor_360/cosmetica_1_360.jpg
+#	new file:   images/menor_360/desktop.ini
+#	new file:   images/menor_360/fruta_1_360.jpg
+#	new file:   images/menor_360/granel_1_360.jpg
+#	new file:   images/menor_640/arte_1_640.jpg
+#	new file:   images/menor_640/cosmetica_1_640.jpg
+#	new file:   images/menor_640/desktop.ini
+#	new file:   images/menor_640/fruta_1_640.jpg
+#	new file:   images/menor_640/granel_1_640.jpg
+#	new file:   images/menor_800/arte_1_800.jpg
+#	new file:   images/menor_800/cosmetica_1_800.jpg
+#	new file:   images/menor_800/desktop.ini
+#	new file:   images/menor_800/fruta_1_800.jpg
+#	new file:   images/menor_800/granel_1_800.jpg
+#	new file:   index.html
+#	new file:   nosotros.html
+#	new file:   servicios.html
+#	new file:   sitemap.xml
+#	new file:   styles/desktop.ini
+#	new file:   styles/styles.css
+#
+
