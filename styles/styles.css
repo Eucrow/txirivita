@@ -1,16 +1,18 @@
+/*
 * {
   /*bxz*/
   /*el tamaño de la caja incluye margin y border*/
-  -webkit-box-sizing: border-box;
+/*  -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
+*/
 
 /*RESET*/
-header, body, footer, ul {
+/*header, body, footer, ul {
   padding: 0px;
   margin: 0px auto;
-}
+}*/
 
 /*COLORES:
  naranja: #FF9900
@@ -170,7 +172,7 @@ section{
   }
 
 /*===section cestas: UTILIZO LA CLASE cestas===*/
-section.cestas{
+/*section.cestas{
     font-size: 0.8rem;
     display: flex;
     flex-direction: row;
@@ -202,10 +204,10 @@ section.cestas{
             .cesta_producto > ul > li:before{
                 content: "· ";
                 font-size:0.9rem;
-            }
+            }*/
 
   /*===imagenes de fondo===*/
-  figure {
+  /*figure {
     padding: 0px;
     margin: 0px;
     border: 0px;
@@ -226,6 +228,7 @@ section.cestas{
   }
 
   /*===diferentes tipos de contenedores, con distintos fondos adaptados al tamaño del dispositivo===*/
+    /*
   .arte{
     background-image: url("../images/menor_360/arte_1_360.jpg");
     background-size: cover;
@@ -244,9 +247,9 @@ section.cestas{
   }
   .naranja{
     background-color: #FFCC99;
-  }
+  }*/
 /* ===== PIE =====*/
-footer{
+/*footer{
   text-align: center;
   margin-top: 20px;
   margin-bottom:20px;
@@ -264,7 +267,7 @@ footer p{
 }
 
 footer figure .facebook{
-  width: 1.3em; /*estos tamñaos los tengo en em pero no creo que estén bien, o al menos no se cual es el tamaño del contenedor...*/
+  width: 1.3em; /*estos tamñaos los tengo en em pero no creo que estén bien, o al menos no se cual es el tamaño del contenedor...
   padding-top: .3em;
 }
 
@@ -272,7 +275,7 @@ footer figure .facebook{
   font-size: .4rem;
   width: 100%;
   text-align: right;
-}
+}*/
 
 
 /* RESPONSIVE
