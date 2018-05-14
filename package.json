@@ -1,0 +1,19 @@
+{
+  "name": "txirivita",
+  "version": "1.0.0",
+  "description": "Txiri Vita web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eucrow/txirivita.git"
+  },
+  "author": "Marco A. Ámez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Eucrow/txirivita/issues"
+  },
+  "homepage": "https://github.com/Eucrow/txirivita#readme"
+}
