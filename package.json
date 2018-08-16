@@ -25,6 +25,7 @@
     "gulp-htmlmin": "^4.0.0",
     "gulp-responsive-images": "0.0.3",
     "gulp-uglify": "^3.0.0",
+    "gulp-uglify-es": "^1.0.4",
     "gulp-webp": "^3.0.0",
     "uglify-es": "^3.3.9",
     "uglify-js": "^3.3.25"

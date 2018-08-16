@@ -1,0 +1,1 @@
+navigator.serviceWorker&&navigator.serviceWorker.register("sw.js").then(e=>navigator.serviceWorker.ready).then(()=>{console.log("Registration worked!!")});

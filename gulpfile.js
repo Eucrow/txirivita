@@ -1,15 +1,9 @@
 const gulp = require('gulp');
 const autoprefixer = require('gulp-autoprefixer');
 const concat = require('gulp-concat')
-const uglify = require('gulp-uglify')
 const browserSync = require('browser-sync').create();
-// uglify minify es5 with uglify-js library (which is
-// automaticaly installed). To use es6 first must install
-// uglify-es (to work with ws6) and then use 'composer'
-// command of gulp-uglify
-const UglifyJS = require("uglify-es");
-const composer = require('gulp-uglify/composer');
-const jsMinify = composer(UglifyJS, console);
+
+const uglify = require('gulp-uglify-es').default;
 
 const htmlMinify = require('gulp-htmlmin');
 
@@ -37,17 +31,17 @@ gulp.task('htmls', function(){
         .pipe(gulp.dest('dist'))
   });
 
-gulp.task('scripts', function(){
-    return gulp.src('js/**/*.js')
-        .pipe(concat('all.js')) // concat
+
+gulp.task('scriptsDist', function(){
+    return gulp.src('js/main.js')
+        // .pipe(concat('main.js')) // concat
+        .pipe(uglify())
         .pipe(gulp.dest('dist/js'));
 })
 
-gulp.task('scripts_dist', function(){
-    return gulp.src('js/**/*.js')
-        .pipe(concat('all.js')) // concat
-        .pipe(jsMinify())
-        .pipe(gulp.dest('dist/js'));
+gulp.task('swDist', function(){
+    return gulp.src('sw.js')
+        .pipe(gulp.dest('dist'));
 })
 
 gulp.task('copyImages', function(){
@@ -84,7 +78,7 @@ gulp.task('convertToWEBP', () =>
         .pipe(gulp.dest('dist/img/'))
 );
 
-gulp.task('default', gulp.series('styles', 'scripts', 'htmls', function(){
+gulp.task('default', gulp.series('styles', 'scriptsDist', 'htmls', 'swDist', function(){
 
     browserSync.init({
         server: "./dist",
@@ -93,6 +87,7 @@ gulp.task('default', gulp.series('styles', 'scripts', 'htmls', function(){
 
     gulp.watch("dist/*.html").on('change', browserSync.reload);
     gulp.watch("dist/css/*.css").on('change', browserSync.reload);
+    gulp.watch("dist/js/*.js").on('change', browserSync.reload);
 
 }));
 
