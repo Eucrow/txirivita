@@ -1,0 +1,33 @@
+{
+  "name": "txirivita",
+  "version": "1.0.0",
+  "description": "Txiri Vita web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eucrow/txirivita.git"
+  },
+  "author": "Marco A. Ámez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Eucrow/txirivita/issues"
+  },
+  "homepage": "https://github.com/Eucrow/txirivita#readme",
+  "devDependencies": {
+    "browser-sync": "^2.24.4",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-clean-css": "^3.10.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-htmlmin": "^4.0.0",
+    "gulp-responsive-images": "0.0.3",
+    "gulp-uglify": "^3.0.0",
+    "gulp-webp": "^3.0.0",
+    "uglify-es": "^3.3.9",
+    "uglify-js": "^3.3.25"
+  },
+  "dependencies": {}
+}
